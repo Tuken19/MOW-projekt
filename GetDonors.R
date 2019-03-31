@@ -6,7 +6,7 @@ GetDonors <- function(introns, dane, winLen){
   #   winLen - to parametr okreœlaj¹cy d³ugoœæ donora
   # Wyjœcie:
   #   donors - data frame, której wiersze zawieraj¹ sekwencje znalezionych donorów, a w ostatniej kolumnie
-  #            jest 0 - jeœli donor jest prawdziwy i 1 jesli jest fa³szywy
+  #            jest 0 - jeœli donor jest fa³szywy i 1 jesli jest prawdziwy
   
   library(zoo)      # Biblioteka, z której potrzebujemy funkcjê rollapply
   
